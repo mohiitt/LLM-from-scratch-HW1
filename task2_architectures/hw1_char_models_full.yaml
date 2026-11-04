@@ -1,0 +1,30 @@
+# HW1 Task 2: six architectures x two seeds, full tutorial-equivalent budget.
+# Install this file in the professor's nanolm/configs/sweeps directory.
+# Each run: 2,000 steps x 32 sequences x 256 tokens = 16,384,000 tokens.
+name: hw1_char_models_full
+base: ../02_char_transformer.yaml
+seeds: [1337, 42]
+common:
+  train.max_steps: 2000
+  train.batch_size: 32
+  train.seq_len: 256
+  train.grad_accum: 1
+  train.max_time_sec: 0.0
+  train.eval_every: 250
+  train.log_every: 50
+  train.compile: false
+  train.save_checkpoint: false
+  eval.sample_tokens: 0
+  eval.final_eval_tokens: 0
+runs:
+  - name: rnn
+    overrides: {model.arch: rnn, model.n_layers: 2, model.dim: 256, train.lr: 2e-3, train.weight_decay: 0.0}
+  - name: gru
+    overrides: {model.arch: gru, model.n_layers: 2, model.dim: 256, train.lr: 2e-3, train.weight_decay: 0.0}
+  - name: lstm
+    overrides: {model.arch: lstm, model.n_layers: 2, model.dim: 256, train.lr: 2e-3, train.weight_decay: 0.0}
+  - name: lstm_512
+    overrides: {model.arch: lstm, model.n_layers: 2, model.dim: 512, train.lr: 2e-3, train.weight_decay: 0.0}
+  - name: gpt_textbook
+  - name: gpt_modern
+    overrides: {model.norm: rmsnorm, model.pos: rope, model.mlp: swiglu, model.bias: false, train.save_checkpoint: true}

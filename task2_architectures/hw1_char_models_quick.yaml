@@ -1,0 +1,30 @@
+# Optional reduced-budget version when the full sweep is too slow on a laptop.
+# Each run: 1,000 steps x 32 x 256 = 8,192,000 tokens.
+# Use only one experiment budget in the report; do not mix full and quick runs.
+name: hw1_char_models_quick
+base: ../02_char_transformer.yaml
+seeds: [1337, 42]
+common:
+  train.max_steps: 1000
+  train.batch_size: 32
+  train.seq_len: 256
+  train.grad_accum: 1
+  train.max_time_sec: 0.0
+  train.eval_every: 125
+  train.log_every: 25
+  train.compile: false
+  train.save_checkpoint: false
+  eval.sample_tokens: 0
+  eval.final_eval_tokens: 0
+runs:
+  - name: rnn
+    overrides: {model.arch: rnn, model.n_layers: 2, model.dim: 256, train.lr: 2e-3, train.weight_decay: 0.0}
+  - name: gru
+    overrides: {model.arch: gru, model.n_layers: 2, model.dim: 256, train.lr: 2e-3, train.weight_decay: 0.0}
+  - name: lstm
+    overrides: {model.arch: lstm, model.n_layers: 2, model.dim: 256, train.lr: 2e-3, train.weight_decay: 0.0}
+  - name: lstm_512
+    overrides: {model.arch: lstm, model.n_layers: 2, model.dim: 512, train.lr: 2e-3, train.weight_decay: 0.0}
+  - name: gpt_textbook
+  - name: gpt_modern
+    overrides: {model.norm: rmsnorm, model.pos: rope, model.mlp: swiglu, model.bias: false, train.save_checkpoint: true}

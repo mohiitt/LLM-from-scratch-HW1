@@ -1,0 +1,90 @@
+name: hw1_context_length
+base: ../DeepDataMiningLearning/DeepDataMiningLearning/llm/nanolm/configs/02_char_transformer.yaml
+seeds:
+- 1337
+common:
+  train.max_steps: 2000
+  train.batch_size: 32
+  train.seq_len: 256
+  train.grad_accum: 1
+  train.max_time_sec: 0.0
+  train.eval_every: 250
+  train.log_every: 50
+  train.compile: false
+  train.save_checkpoint: false
+  eval.sample_tokens: 0
+  eval.final_eval_tokens: 0
+  eval.eval_seq_len: 0
+runs:
+- name: lstm_ctx64
+  overrides:
+    model.arch: lstm
+    model.n_layers: 2
+    model.dim: 256
+    train.lr: 2e-3
+    train.weight_decay: 0.0
+    train.seq_len: 64
+    train.batch_size: 128
+- name: lstm_ctx128
+  overrides:
+    model.arch: lstm
+    model.n_layers: 2
+    model.dim: 256
+    train.lr: 2e-3
+    train.weight_decay: 0.0
+    train.seq_len: 128
+    train.batch_size: 64
+- name: lstm_ctx256
+  overrides:
+    model.arch: lstm
+    model.n_layers: 2
+    model.dim: 256
+    train.lr: 2e-3
+    train.weight_decay: 0.0
+    train.seq_len: 256
+    train.batch_size: 32
+- name: lstm_ctx512
+  overrides:
+    model.arch: lstm
+    model.n_layers: 2
+    model.dim: 256
+    train.lr: 2e-3
+    train.weight_decay: 0.0
+    train.seq_len: 512
+    train.batch_size: 16
+- name: gpt_modern_ctx64
+  overrides:
+    model.norm: rmsnorm
+    model.pos: rope
+    model.mlp: swiglu
+    model.bias: false
+    train.save_checkpoint: true
+    train.seq_len: 64
+    train.batch_size: 128
+- name: gpt_modern_ctx128
+  overrides:
+    model.norm: rmsnorm
+    model.pos: rope
+    model.mlp: swiglu
+    model.bias: false
+    train.save_checkpoint: true
+    train.seq_len: 128
+    train.batch_size: 64
+- name: gpt_modern_ctx256
+  overrides:
+    model.norm: rmsnorm
+    model.pos: rope
+    model.mlp: swiglu
+    model.bias: false
+    train.save_checkpoint: true
+    train.seq_len: 256
+    train.batch_size: 32
+- name: gpt_modern_ctx512
+  overrides:
+    model.norm: rmsnorm
+    model.pos: rope
+    model.mlp: swiglu
+    model.bias: false
+    train.save_checkpoint: true
+    train.seq_len: 512
+    train.batch_size: 16

@@ -122,11 +122,11 @@ The diversity metric is **Distinct-4**, the number of unique overlapping *charac
 | 1.0 | 0.9 | 93.86% ± 2.34 pp | 3.00 | 2.33 |
 | 1.5 | 1.0 | **98.33% ± 1.31 pp** | **1.33** | **1.33** |
 
-<img width="1295" height="736" alt="diversity_vs_readability" src="https://github.com/user-attachments/assets/37b715ff-ce70-4bf2-a1c6-7dfef3bdd35a" />
+<img width="1308" height="782" alt="extended_diversity_heatmap" src="https://github.com/user-attachments/assets/f8931beb-2dfc-4585-9b99-6381f69e475c" />
 
 *Figure 4. Mean distinct character 4-grams across all nine temperature/top-p combinations.*
 
-<img width="1308" height="782" alt="extended_diversity_heatmap" src="https://github.com/user-attachments/assets/f8931beb-2dfc-4585-9b99-6381f69e475c" />
+<img width="1295" height="736" alt="diversity_vs_readability" src="https://github.com/user-attachments/assets/37b715ff-ce70-4bf2-a1c6-7dfef3bdd35a" />
 
 *Figure 5. Greater local novelty was accompanied by lower readability ratings in this small evaluation.*
 

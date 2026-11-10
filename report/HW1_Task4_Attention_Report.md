@@ -10,6 +10,8 @@ This experiment inspected the attention matrices of the **trained modern Transfo
 | Repetition | `the king and the queen and the king return.` |
 | Punctuation | `To be, or not to be: that is the question.` |
 
+The dialogue string was passed as the Python string `"ROMEO:\nBut soft! what light through yonder window breaks?"`, where `\n` represents **one real newline character**, not two literal characters `\` and `n`. The actual string has **57 characters**, hence **56 valid previous-token queries** at positions t > 0. This verifies the reported count and avoids an out-of-distribution literal-backslash input.
+
 The selected head averages were calculated over eligible query positions. The uniform-causal reference is the mean of **1/(t + 1)** over those positions, not a fixed attention percentage; this accounts for how many past and current positions each query is allowed to attend to.
 
 ### 5.2 Pattern A: previous-token attention

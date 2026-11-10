@@ -33,10 +33,16 @@ For a uniform predictor over a vocabulary of size V, the theoretical loss is ln(
 | Character | 65 | 4.174387 | 4.178698 | +0.004311 |
 | Byte | 256 | 5.545177 | 5.687762 | +0.142584 |
 
+The byte model also has an observed one-step **8.205705 bpb**, obtained as 5.687762 / ln(2), compared with **8.000000 bits/byte** for an exactly uniform byte predictor over 256 symbols. The character model gives **6.028587 bits/token** (and, for this dataset, bits/byte), compared with the uniform reference log2(65) = approximately **6.022368 bits/token**. These values are based on one optimizer step, not an untrained distribution.
+
 The character model is extremely close to the uniform baseline. The byte model is farther from ln(256), but a randomly initialized model does not necessarily output exactly uniform probabilities, and these measurements were taken after one update. This difference alone does not demonstrate an implementation bug. The byte model's higher initial loss is expected because its vocabulary has more possible outcomes.
 
 The trained character LSTM reduced validation bpb from **6.028587** in the one-step character run to **2.154307**, a reduction of approximately **64.27%**. Its perplexity also fell from **65.280818** to **4.451548**, showing that training substantially improved next-character prediction.
 
-### 2.4 Interpretation
+### 2.4 Relation to the separate Task 2 LSTM run
+
+The Task 1 LSTM reports **2.154307 bpb**, while the Task 2 LSTM-256 with seed 1337 reports **2.133688 bpb**, a **0.020620-bpb** difference. These are separate training and evaluation runs, not duplicate readings from one checkpoint. Both have two layers, hidden width 256, 1,069,824 parameters, seed 1337, 2,000 steps, and 16,384,000 tokens of training exposure. Their saved evaluations, however, cover **111,488 validation characters (Task 1)** versus **111,360 (Task 2)**, so they are not identically evaluated. The Task 2 configuration explicitly uses sequences of 256 characters, batches of 32, AdamW, learning rate 0.002, and weight decay 0.0. Without a full side-by-side comparison of Task 1's saved configuration, I cannot attribute the 0.020620-bpb difference to a specific training or evaluation setting. I retain both recorded values and use Task 2 only for the controlled architecture comparison.
+
+### 2.5 Interpretation
 
 Loss and perplexity are defined per tokenizer token. Consequently, comparing perplexities between character and byte or subword tokenizers can be misleading: a token may represent different amounts of text. Bits per byte normalizes the total prediction cost by UTF-8 byte count, making it a more appropriate comparison metric across tokenizers. This task verified the logged metrics and established why bpb is used throughout the remaining experiments.

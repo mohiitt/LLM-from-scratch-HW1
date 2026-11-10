@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "run_dir": "/Users/mohit/LLM-from-scratch-HW1/DeepDataMiningLearning/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context_length/gpt_modern_ctx512_s1337",
+    "prompt": "ROMEO:\n",
+    "context": 512,
+    "new_tokens": 200,
+    "temperature": 0.5,
+    "top_p": 0.9,
+    "top_k": 0,
+    "generation_seed": 9
+  },
+  "generated_text": "That will you be the sight of my father love.\n\nROMEO:\nAnd she did the heart where I did see\nThe people that may see the house of Edward,\nWhich will was for the fairest death of the people,\nThat he sha"
+}

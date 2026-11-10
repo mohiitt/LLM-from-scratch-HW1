@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "run_dir": "/Users/mohit/LLM-from-scratch-HW1/DeepDataMiningLearning/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context_length/gpt_modern_ctx512_s1337",
+    "prompt": "ROMEO:\n",
+    "context": 512,
+    "new_tokens": 200,
+    "temperature": 0.5,
+    "top_p": 0.8,
+    "top_k": 0,
+    "generation_seed": 1
+  },
+  "generated_text": "What say you to your sin and should be so?\n\nJULIET:\nWhat says you to your honour hath so much?\n\nJULIET:\nAnd then you shall not be so should see your brother.\n\nNurse:\nWhat is the heart is the morning b"
+}

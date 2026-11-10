@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "run_dir": "/Users/mohit/LLM-from-scratch-HW1/DeepDataMiningLearning/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context_length/gpt_modern_ctx512_s1337",
+    "prompt": "ROMEO:\n",
+    "context": 512,
+    "new_tokens": 200,
+    "temperature": 1.5,
+    "top_p": 0.9,
+    "top_k": 0,
+    "generation_seed": 3
+  },
+  "generated_text": "Then near me away. O, but that's I am;\nHis mere is in Rutland, as they accuse, you\nStir, after it, eat it died then which\nShall be sworn reverent did be guilty expraced.\nMy poor foe's and choice that "
+}

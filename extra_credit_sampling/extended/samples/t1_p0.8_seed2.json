@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "run_dir": "/Users/mohit/LLM-from-scratch-HW1/DeepDataMiningLearning/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context_length/gpt_modern_ctx512_s1337",
+    "prompt": "ROMEO:\n",
+    "context": 512,
+    "new_tokens": 200,
+    "temperature": 1.0,
+    "top_p": 0.8,
+    "top_k": 0,
+    "generation_seed": 2
+  },
+  "generated_text": "O my tongues, I have stoop'd my son.\n\nQUEEN MARGARET:\nThe day had seen thee by this boy, and leave thee,\nTo bid me and flow that they will be there?\n\nKING RICHARD III:\nWhy, like me leave that made her"
+}

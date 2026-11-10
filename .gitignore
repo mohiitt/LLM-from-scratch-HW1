@@ -1,1 +1,11 @@
 .env
+.rocketride/
+# Professor's source repository
+/DeepDataMiningLearning/
+
+# Local AI editor settings
+/.claude/
+/.cursor/
+
+# Temporary planning archive
+/HW1_Task2_plan.zip

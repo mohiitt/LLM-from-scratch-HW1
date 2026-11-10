@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "run_dir": "/Users/mohit/LLM-from-scratch-HW1/DeepDataMiningLearning/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context_length/gpt_modern_ctx512_s1337",
+    "prompt": "ROMEO:\n",
+    "context": 512,
+    "new_tokens": 200,
+    "temperature": 1.0,
+    "top_p": 0.8,
+    "top_k": 0,
+    "generation_seed": 7
+  },
+  "generated_text": "Ay, man! I mean thee here, and say 'Be well;'\nWhen he have stoled of his wife, and what chastise?\n\nROMEO:\nAnd I have been for my father's face, and I come.\n\nCAPULET:\nWe thank you, what should have you"
+}

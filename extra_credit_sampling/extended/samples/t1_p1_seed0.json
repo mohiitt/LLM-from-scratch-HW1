@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "run_dir": "/Users/mohit/LLM-from-scratch-HW1/DeepDataMiningLearning/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context_length/gpt_modern_ctx512_s1337",
+    "prompt": "ROMEO:\n",
+    "context": 512,
+    "new_tokens": 200,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "top_k": 0,
+    "generation_seed": 0
+  },
+  "generated_text": "Thy father had selter'd it nearest, in Ireland.\nMy pourse is now here hath not seen lies\nHere is sometime portion of all: my friends none.\n\nROMEO:\nMy worthy day's highness and two brisks.\n\nFRIAR LAURE"
+}

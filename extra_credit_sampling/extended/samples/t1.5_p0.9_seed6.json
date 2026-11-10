@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "run_dir": "/Users/mohit/LLM-from-scratch-HW1/DeepDataMiningLearning/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context_length/gpt_modern_ctx512_s1337",
+    "prompt": "ROMEO:\n",
+    "context": 512,
+    "new_tokens": 200,
+    "temperature": 1.5,
+    "top_p": 0.9,
+    "top_k": 0,
+    "generation_seed": 6
+  },
+  "generated_text": "What! Isabella!\nI thank you do, you what touch my pain, I blatch yourselves,\nAnd marry and my anger.\n\nLUCIO:\nI would become often\nShepherds discended me.\n\nCLARENCE:\nIs my sight granted\nSince that thou"
+}

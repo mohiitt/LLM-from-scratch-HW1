@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "run_dir": "/Users/mohit/LLM-from-scratch-HW1/DeepDataMiningLearning/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context_length/gpt_modern_ctx512_s1337",
+    "prompt": "ROMEO:\n",
+    "context": 512,
+    "new_tokens": 200,
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "top_k": 0,
+    "generation_seed": 0
+  },
+  "generated_text": "Thou must shall not stay a merry brother;\nTherefore I would forget thee the house.\n\nFirst Murderer:\nWell, poor sovereign! What thou wert my father?\n\nROMEO:\nWhat's the head? do I come to weep thee.\n\nQU"
+}

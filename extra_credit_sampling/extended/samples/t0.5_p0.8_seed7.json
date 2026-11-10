@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "run_dir": "/Users/mohit/LLM-from-scratch-HW1/DeepDataMiningLearning/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context_length/gpt_modern_ctx512_s1337",
+    "prompt": "ROMEO:\n",
+    "context": 512,
+    "new_tokens": 200,
+    "temperature": 0.5,
+    "top_p": 0.8,
+    "top_k": 0,
+    "generation_seed": 7
+  },
+  "generated_text": "A common soul, my lord, the law is the world.\n\nROMEO:\nAnd then the prince that we have show'd the sea,\nAnd what the true heart the state of the sea\nThat the substitute of the first be made a part\nThat"
+}

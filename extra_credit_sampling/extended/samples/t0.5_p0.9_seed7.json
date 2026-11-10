@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "run_dir": "/Users/mohit/LLM-from-scratch-HW1/DeepDataMiningLearning/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context_length/gpt_modern_ctx512_s1337",
+    "prompt": "ROMEO:\n",
+    "context": 512,
+    "new_tokens": 200,
+    "temperature": 0.5,
+    "top_p": 0.9,
+    "top_k": 0,
+    "generation_seed": 7
+  },
+  "generated_text": "A common soul, my lord, to say as the mouths?\n\nROMEO:\nAnd then the prince that we have show'd the state,\nAnd that the shore that hath seen the world\nThat with the world that he shall be spent,\nAnd wee"
+}

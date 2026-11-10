@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "run_dir": "/Users/mohit/LLM-from-scratch-HW1/DeepDataMiningLearning/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context_length/gpt_modern_ctx512_s1337",
+    "prompt": "ROMEO:\n",
+    "context": 512,
+    "new_tokens": 200,
+    "temperature": 1.5,
+    "top_p": 0.8,
+    "top_k": 0,
+    "generation_seed": 6
+  },
+  "generated_text": "What's dead, shall wake it? Well, not so.\n\nSAMPSON:\nAnd I both bless them, that am we will marry them.\n\nSAMPSON:\nWell said to-day.\n\nMERCUTIO:\nYou would hatefully buy: but she'll be holy incensed.\n\nMER"
+}

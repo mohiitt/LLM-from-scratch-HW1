@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "run_dir": "/Users/mohit/LLM-from-scratch-HW1/DeepDataMiningLearning/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context_length/gpt_modern_ctx512_s1337",
+    "prompt": "ROMEO:\n",
+    "context": 512,
+    "new_tokens": 200,
+    "temperature": 1.5,
+    "top_p": 0.8,
+    "top_k": 0,
+    "generation_seed": 9
+  },
+  "generated_text": "County, foolish! thou damest fly? Camillo,\nAt him from offence. Farewell.\nWhy, think he, in Claudio, or the measure\nOf it hath all men to himself: to-morrow\nComforts of himself to audience. Have I can"
+}

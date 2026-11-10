@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "run_dir": "/Users/mohit/LLM-from-scratch-HW1/DeepDataMiningLearning/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context_length/gpt_modern_ctx512_s1337",
+    "prompt": "ROMEO:\n",
+    "context": 512,
+    "new_tokens": 200,
+    "temperature": 1.0,
+    "top_p": 0.8,
+    "top_k": 0,
+    "generation_seed": 3
+  },
+  "generated_text": "Then is not say no less for the trial stone;\nNo more than this as the lady did not stand.\n\nCAPULET:\nWe will not do the subject of this for mark on,\nAnd said 'The mayor,' the devil's brand,\nAnd make th"
+}

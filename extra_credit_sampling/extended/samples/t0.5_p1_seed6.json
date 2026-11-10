@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "run_dir": "/Users/mohit/LLM-from-scratch-HW1/DeepDataMiningLearning/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context_length/gpt_modern_ctx512_s1337",
+    "prompt": "ROMEO:\n",
+    "context": 512,
+    "new_tokens": 200,
+    "temperature": 0.5,
+    "top_p": 1.0,
+    "top_k": 0,
+    "generation_seed": 6
+  },
+  "generated_text": "What are you so so, and you do so.\n\nROMEO:\nShe shall be so?\n\nPETRUCHIO:\nThou art thou speak'st not a pair of strong.\n\nROMEO:\nThey are no more soundly in the place of your sight:\nI am so in the world o"
+}

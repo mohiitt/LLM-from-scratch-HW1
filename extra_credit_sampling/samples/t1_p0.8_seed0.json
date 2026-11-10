@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "run_dir": "/Users/mohit/LLM-from-scratch-HW1/DeepDataMiningLearning/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context_length/gpt_modern_ctx512_s1337",
+    "prompt": "ROMEO:\n",
+    "context": 512,
+    "new_tokens": 200,
+    "temperature": 1.0,
+    "top_p": 0.8,
+    "top_k": 0,
+    "generation_seed": 0
+  },
+  "generated_text": "That makes her self it on me; here are I to thee,\nI have shown with my strength beholding.\n\nROMEO:\nMarry, let me be made this day to lay my father.\n\nROMEO:\nWhat fair dog to-day?\n\nROMEO:\nAy, I cannot s"
+}

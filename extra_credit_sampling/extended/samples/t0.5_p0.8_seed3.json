@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "run_dir": "/Users/mohit/LLM-from-scratch-HW1/DeepDataMiningLearning/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context_length/gpt_modern_ctx512_s1337",
+    "prompt": "ROMEO:\n",
+    "context": 512,
+    "new_tokens": 200,
+    "temperature": 0.5,
+    "top_p": 0.8,
+    "top_k": 0,
+    "generation_seed": 3
+  },
+  "generated_text": "Then have I said the sea, that I have stood my soul,\nAnd be my mind of my love is dead,\nThat thou shalt be so far to the sun.\n\nFRIAR LAURENCE:\nO, then, the son of the house of the world,\nAnd therefore"
+}

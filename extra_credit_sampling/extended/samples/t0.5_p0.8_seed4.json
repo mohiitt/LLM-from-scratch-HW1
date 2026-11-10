@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "run_dir": "/Users/mohit/LLM-from-scratch-HW1/DeepDataMiningLearning/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context_length/gpt_modern_ctx512_s1337",
+    "prompt": "ROMEO:\n",
+    "context": 512,
+    "new_tokens": 200,
+    "temperature": 0.5,
+    "top_p": 0.8,
+    "top_k": 0,
+    "generation_seed": 4
+  },
+  "generated_text": "And then the hand that will be seen and soul.\n\nROMEO:\nI think the prince with the body soul of the sea\nThat stands and the house of the world hath done.\n\nROMEO:\nWhat said the world is the dead son?\n\nR"
+}

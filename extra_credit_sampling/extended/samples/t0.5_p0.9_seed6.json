@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "run_dir": "/Users/mohit/LLM-from-scratch-HW1/DeepDataMiningLearning/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context_length/gpt_modern_ctx512_s1337",
+    "prompt": "ROMEO:\n",
+    "context": 512,
+    "new_tokens": 200,
+    "temperature": 0.5,
+    "top_p": 0.9,
+    "top_k": 0,
+    "generation_seed": 6
+  },
+  "generated_text": "What are you so so, and you do so.\n\nROMEO:\nWhy, marry, sir?\n\nJULIET:\nSir, the duke, the best of the heavens of him,\nAnd with the particular of the world does of him.\n\nJULIET:\nThe sun of the prince to "
+}

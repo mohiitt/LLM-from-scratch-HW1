@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "run_dir": "/Users/mohit/LLM-from-scratch-HW1/DeepDataMiningLearning/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context_length/gpt_modern_ctx512_s1337",
+    "prompt": "ROMEO:\n",
+    "context": 512,
+    "new_tokens": 200,
+    "temperature": 1.5,
+    "top_p": 0.9,
+    "top_k": 0,
+    "generation_seed": 5
+  },
+  "generated_text": "Why, no the corse I should, more out him:\nDoth thou kilt thee with modest wivery boney,\nAnd his straction because I will then:\nHave made, younger, thou kilddo my covered.\nAlthough are glad o'erproof?\n"
+}

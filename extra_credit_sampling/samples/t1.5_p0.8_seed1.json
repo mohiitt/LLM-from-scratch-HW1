@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "run_dir": "/Users/mohit/LLM-from-scratch-HW1/DeepDataMiningLearning/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context_length/gpt_modern_ctx512_s1337",
+    "prompt": "ROMEO:\n",
+    "context": 512,
+    "new_tokens": 200,
+    "temperature": 1.5,
+    "top_p": 0.8,
+    "top_k": 0,
+    "generation_seed": 1
+  },
+  "generated_text": "But, so here to unspising at ear, a king.\n\nBUCKINGHAM:\nCome, come, my Lord. Why, have tail'd here?\nThat dost unwood doubt, like your shifts,\nTo do't an assaulter, man, my be is the earth!\nShe is this "
+}

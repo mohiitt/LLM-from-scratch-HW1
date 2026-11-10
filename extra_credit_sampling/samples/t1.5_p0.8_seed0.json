@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "run_dir": "/Users/mohit/LLM-from-scratch-HW1/DeepDataMiningLearning/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context_length/gpt_modern_ctx512_s1337",
+    "prompt": "ROMEO:\n",
+    "context": 512,
+    "new_tokens": 200,
+    "temperature": 1.5,
+    "top_p": 0.8,
+    "top_k": 0,
+    "generation_seed": 0
+  },
+  "generated_text": "Thou must we wise. I would not, you do not strange\npout-den; now here hath not seemed you. I have learn'd\nyou well reasons your foe, none faithful well.\n\nRoman:\nSir, sovereign! who not she?\n\nROMEO:\nHa"
+}

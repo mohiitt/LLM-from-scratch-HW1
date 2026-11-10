@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "run_dir": "/Users/mohit/LLM-from-scratch-HW1/DeepDataMiningLearning/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context_length/gpt_modern_ctx512_s1337",
+    "prompt": "ROMEO:\n",
+    "context": 512,
+    "new_tokens": 200,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "top_k": 0,
+    "generation_seed": 1
+  },
+  "generated_text": "But, so here stayuth, but I mean, and shall wink\nand from Saint Francis. Loox, and long is friend?\nThat thought our desert discovers'd but the reversion,\nI'll die my face but sweat Romeo could,\nIt rec"
+}

@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "run_dir": "/Users/mohit/LLM-from-scratch-HW1/DeepDataMiningLearning/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context_length/gpt_modern_ctx512_s1337",
+    "prompt": "ROMEO:\n",
+    "context": 512,
+    "new_tokens": 200,
+    "temperature": 1.5,
+    "top_p": 0.8,
+    "top_k": 0,
+    "generation_seed": 4
+  },
+  "generated_text": "Ay, let me level: do I cannot thee held it,\nThere I see't beg for't; he bore thy king,\nTo corrive to right: I'll call my lord,\nOr any suppose of thine eyes: how must be true.\nNow looks thee, sir, let "
+}

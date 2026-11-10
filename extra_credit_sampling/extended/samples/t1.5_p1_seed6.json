@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "run_dir": "/Users/mohit/LLM-from-scratch-HW1/DeepDataMiningLearning/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context_length/gpt_modern_ctx512_s1337",
+    "prompt": "ROMEO:\n",
+    "context": 512,
+    "new_tokens": 200,
+    "temperature": 1.5,
+    "top_p": 1.0,
+    "top_k": 0,
+    "generation_seed": 6
+  },
+  "generated_text": "What! Isabella!\nI twaht Lord castlel.\nLook he king\nRichard'got in riote? both is my tveable:\n'Tis languish'd lawful enemiest cheeOffer hand,\nWiITdull incline like it: bides, wive Rutland,\nMy royal pow"
+}

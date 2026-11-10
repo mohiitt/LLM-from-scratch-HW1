@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "run_dir": "/Users/mohit/LLM-from-scratch-HW1/DeepDataMiningLearning/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context_length/gpt_modern_ctx512_s1337",
+    "prompt": "ROMEO:\n",
+    "context": 512,
+    "new_tokens": 200,
+    "temperature": 1.5,
+    "top_p": 0.9,
+    "top_k": 0,
+    "generation_seed": 1
+  },
+  "generated_text": "But, sullen, the usurer, patience; face world now!\n\nLADY CAPULET:\nWherefore came have gainst her! What, though you\nBut hot drinkests as foiles caveds, he is put--\n\nNurse:\nShe sword it, mother.\n\nCAPULE"
+}

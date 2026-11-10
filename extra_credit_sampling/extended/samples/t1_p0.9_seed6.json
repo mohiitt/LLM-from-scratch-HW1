@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "run_dir": "/Users/mohit/LLM-from-scratch-HW1/DeepDataMiningLearning/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context_length/gpt_modern_ctx512_s1337",
+    "prompt": "ROMEO:\n",
+    "context": 512,
+    "new_tokens": 200,
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "top_k": 0,
+    "generation_seed": 6
+  },
+  "generated_text": "What, I had spoke to help a death.\nWhat is her such one rebellion should be which not\nAs which is languish'd with battle, makes you him\nAnd discruel and good like it. O, think\nThe books in the world h"
+}

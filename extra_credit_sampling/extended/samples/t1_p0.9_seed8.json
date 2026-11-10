@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "run_dir": "/Users/mohit/LLM-from-scratch-HW1/DeepDataMiningLearning/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context_length/gpt_modern_ctx512_s1337",
+    "prompt": "ROMEO:\n",
+    "context": 512,
+    "new_tokens": 200,
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "top_k": 0,
+    "generation_seed": 8
+  },
+  "generated_text": "That set the hope of heaven dam surmour,\nThat till be a sister worthily stand away.\n\nBUCKINGHAM:\nFaith, sir, go with him a kindred blood,\nThat have been for the deep still in mine.\n\nQUEEN MARGARET:\nWh"
+}

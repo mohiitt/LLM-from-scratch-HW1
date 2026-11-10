@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "run_dir": "/Users/mohit/LLM-from-scratch-HW1/DeepDataMiningLearning/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context_length/gpt_modern_ctx512_s1337",
+    "prompt": "ROMEO:\n",
+    "context": 512,
+    "new_tokens": 200,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "top_k": 0,
+    "generation_seed": 3
+  },
+  "generated_text": "Then near me away. O, but that's I am;\nHis mine eyes should but alter'd for patience.\n\nROMEO:\nYou, go did I never now meet him protest\nMy dear penitence and foreign, hate lies waste't\nTo this cutting "
+}

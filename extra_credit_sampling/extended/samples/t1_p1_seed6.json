@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "run_dir": "/Users/mohit/LLM-from-scratch-HW1/DeepDataMiningLearning/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context_length/gpt_modern_ctx512_s1337",
+    "prompt": "ROMEO:\n",
+    "context": 512,
+    "new_tokens": 200,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "top_k": 0,
+    "generation_seed": 6
+  },
+  "generated_text": "What's behaves! so was neck to such as this.\n\nJOHN OF GAUNT:\nThis should be waiting to any moral transport,\nThe shepherd kindled Oxford and desI curse;\nWhose life is womans that cause with the world.\n"
+}

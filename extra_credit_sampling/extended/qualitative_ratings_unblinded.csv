@@ -1,0 +1,28 @@
+review_id,temperature,top_p,seed,readability_1to5,coherence_1to5,repetition_1to5,notes
+R01,1.5,0.9,8,2,2,1,Numerous invented words; some sentence-like structure but little continuity.
+R02,1.0,1.0,5,3,2,2,Recognizable dialogue and clauses; malformed words and repeated noble/Romeo.
+R03,0.5,1.0,8,4,3,1,"Mostly readable verse; loosely connected York, prince, and family references."
+R04,1.5,1.0,5,2,2,1,Several distorted words and clauses; the theme is difficult to follow.
+R05,1.0,1.0,2,3,2,1,"Readable speaker changes and fragments, but invented words and weak continuity."
+R06,1.5,0.8,5,3,2,1,Some grammatical passages; strained expressions interrupt meaning.
+R07,1.0,0.8,8,4,3,2,Mostly intelligible dramatic text; repeated speaker label and awkward phrases.
+R08,1.5,0.9,5,2,1,1,Many fabricated words and broken grammar; little coherent meaning.
+R09,0.5,0.8,5,4,3,2,Mostly readable sustained dialogue; echoes soul and courtesy/courteous.
+R10,1.5,1.0,2,1,1,1,Predominantly invented or malformed words with disconnected fragments.
+R11,0.5,1.0,2,4,3,1,"Readable dialogue and royal imagery, though the details do not fully connect."
+R12,1.5,1.0,8,1,1,1,Extensive gibberish and broken clauses; no sustained meaning.
+R13,0.5,0.9,5,4,2,4,Intelligible phrases but repetitive ROMEO turns and recurring speech patterns.
+R14,0.5,0.9,8,4,3,1,Largely grammatical Shakespeare-like verse with loose narrative continuity.
+R15,1.5,0.8,8,3,2,2,Mixed understandable lines and faulty phrases; repeated life wording.
+R16,0.5,0.9,2,4,3,1,Mostly fluent courtly dialogue with some semantic and grammar errors.
+R17,1.5,0.8,2,3,2,1,"Recognizable dialogue, but malformed phrasing disrupts continuity."
+R18,0.5,0.8,8,4,3,2,Readable verse and consistent court/prince theme; some recurring phrases.
+R19,1.0,0.9,5,3,2,1,Interpretable fragments with grammatical errors and loosely connected images.
+R20,1.5,0.9,2,2,2,1,Multiple nonsensical constructions and invented words; weak connective theme.
+R21,0.5,0.8,2,4,4,1,Relatively coherent dialogue about leaving and staying; mostly readable.
+R22,1.0,1.0,8,2,2,1,Some discernible topic but invented words and broken syntax reduce readability.
+R23,1.0,0.9,2,3,2,1,Character exchanges and some readable phrases; broken clauses and weak continuity.
+R24,1.0,0.8,2,4,3,1,Mostly readable character exchanges with modest grammatical oddities.
+R25,0.5,1.0,5,4,4,1,Clear dialogue turns and stable conversation despite awkward word choice.
+R26,1.0,0.9,8,3,3,1,Mixed malformed wording and reasonably connected dialogue about loyalty.
+R27,1.0,0.8,5,3,2,1,Readable fragments and speaker transition but limited logical continuity.

@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "run_dir": "/Users/mohit/LLM-from-scratch-HW1/DeepDataMiningLearning/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context_length/gpt_modern_ctx512_s1337",
+    "prompt": "ROMEO:\n",
+    "context": 512,
+    "new_tokens": 200,
+    "temperature": 1.5,
+    "top_p": 1.0,
+    "top_k": 0,
+    "generation_seed": 7
+  },
+  "generated_text": "At 'many occa: lordky hotses! Swier's mouth!'\nWe knew your storm born: what my father boy,'\nWhether gates consul, Hath he old Claudio;'\nWho, law not Sowly prince upon nothing; so,\nTo bacvild you faire"
+}

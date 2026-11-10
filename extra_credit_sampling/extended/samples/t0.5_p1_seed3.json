@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "run_dir": "/Users/mohit/LLM-from-scratch-HW1/DeepDataMiningLearning/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context_length/gpt_modern_ctx512_s1337",
+    "prompt": "ROMEO:\n",
+    "context": 512,
+    "new_tokens": 200,
+    "temperature": 0.5,
+    "top_p": 1.0,
+    "top_k": 0,
+    "generation_seed": 3
+  },
+  "generated_text": "Then have I sawn thee but that I have still my proud,\nAnd then my true afflict of the heavy words,\nAnd will not death my sword protest in the heavy.\n\nROMEO:\nAnd if thou be done, and then the heart of "
+}

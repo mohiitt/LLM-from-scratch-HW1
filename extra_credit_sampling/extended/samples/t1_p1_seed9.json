@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "run_dir": "/Users/mohit/LLM-from-scratch-HW1/DeepDataMiningLearning/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context_length/gpt_modern_ctx512_s1337",
+    "prompt": "ROMEO:\n",
+    "context": 512,
+    "new_tokens": 200,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "top_k": 0,
+    "generation_seed": 9
+  },
+  "generated_text": "Compake us like an house. Have you seen me:\nStay, for reverse disdain her lawful nurses,\nAnd I now for them means me to his hand,\nDebbitation'd by the breeding fortunes:\nO. Sir, I am no heart drink; w"
+}

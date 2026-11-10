@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "run_dir": "/Users/mohit/LLM-from-scratch-HW1/DeepDataMiningLearning/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context_length/gpt_modern_ctx512_s1337",
+    "prompt": "ROMEO:\n",
+    "context": 512,
+    "new_tokens": 200,
+    "temperature": 0.5,
+    "top_p": 1.0,
+    "top_k": 0,
+    "generation_seed": 9
+  },
+  "generated_text": "That's a thousand body men are come to the butcher,\nThat we shall have the sword to the sea?\nO mother, the man was the prince that means,\nThat the time had not for the sea. Sir, I am nothing\nThat make"
+}

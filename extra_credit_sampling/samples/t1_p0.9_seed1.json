@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "run_dir": "/Users/mohit/LLM-from-scratch-HW1/DeepDataMiningLearning/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context_length/gpt_modern_ctx512_s1337",
+    "prompt": "ROMEO:\n",
+    "context": 512,
+    "new_tokens": 200,
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "top_k": 0,
+    "generation_seed": 1
+  },
+  "generated_text": "But, so here stays all that means are spender.\nBut what was in her sorrow? Why art thou heavy?\nWhat, gracious fellows?\n\nFRIAR LAURENCE:\nTo tell me, sir.\n\nNurse:\nAy, commend me what e'er they tell me,\n"
+}
